@@ -1,3 +1,7 @@
 <?php
-	echo 'This is a test file.';
+	function test($val){
+		if($val){
+			echo 'This is a test file.';
+		}
+	}
 ?>
